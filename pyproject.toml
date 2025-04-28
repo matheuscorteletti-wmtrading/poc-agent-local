@@ -1,0 +1,20 @@
+[project]
+name = "classificador-poc"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "batchuka",email = "matheusrlz@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "boto3 (>=1.38.3,<2.0.0)",
+    "faiss-cpu (>=1.10.0,<2.0.0)",
+    "langgraph (>=0.3.34,<0.4.0)",
+    "langchain-community (>=0.3.22,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

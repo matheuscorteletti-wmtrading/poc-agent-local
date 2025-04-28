@@ -1,0 +1,21 @@
+{
+  "messageVersion": "1.0",
+  "response": {
+    "actionGroup": "undefined",
+    "function": "extrair-info-produto",
+    "functionResponse": {
+      "responseBody": {
+        "TEXT": {
+          "body": "Era 100 The NextGen Stereo Bookshelf Speaker Sonos Skip to main content Shop Headphones Learn Support Radio Professional My Account Search Cart Menu Shop Speakers Bluetooth Era 100 Smart Speaker 199 4"
+        }
+      },
+      "results": {
+        "summary": "Era 100: The Next-Gen Stereo Bookshelf Speaker | Sonos Skip to main content Shop Headphones Learn Support Radio Professional My Account Search Cart Menu Shop > Speakers Bluetooth Era 100 Smart Speaker $199 4.6 / 5 Featuring next-gen acoustics and new levels of connectivity, Era 100 transforms any room with the finely tuned stereo sound and rich bass your music deserves. More info Black Add to cart Voice enabled Voice enabled Wifi WiFi Bluetooth Bluetooth® Line in Line in Automatic Trueplay Trueplay™ Apple Airplay 2 Apple AirPlay 2 Touch controls Touch controls Humidity resistant Humidity resistant Your browser cannot play the provided video file. Your browser cannot play the provided video file. An icon, remastered Superb sonic power Next-gen acoustics bring your music to life with detailed stereo separation and deep bass at any volume. Minor scale for major versatility Place this speaker anywhere and everywhere you want to listen. The compact design fits beautifully on your bookshelf,..."
+      }
+    }
+  }
+}
+
+Era 100: A caixa de som estéreo de estante da próxima geração | Sonos Ir para o conteúdo principal Comprar Fones de ouvido Aprender Suporte Rádio Profissional Minha conta Pesquisar Carrinho Menu Comprar > Caixas de som Bluetooth Caixa de som inteligente Era 100 R$ 1,99 4,6 / 5 Apresentando acústica de última geração e novos níveis de conectividade, a Era 100 transforma qualquer ambiente com o som estéreo afinado e os graves ricos que sua música merece. Mais informações Preto Adicionar ao carrinho Habilitado para voz Habilitado para voz Wi-Fi Wi-Fi Bluetooth Bluetooth® Line in Line in Automático Trueplay Trueplay™ Apple Airplay 2 Apple AirPlay 2 Controles por toque Controles por toque Resistente à umidade Resistente à umidade Seu navegador não pode reproduzir o arquivo de vídeo fornecido. Seu navegador não pode reproduzir o arquivo de vídeo fornecido. Um ícone, remasterizado Excelente potência sonora A acústica de última geração dá vida à sua música com separação estéreo detalhada e graves profundos em qualquer volume. Escala menor para maior versatilidade Coloque esta caixa de som em qualquer lugar que você queira ouvir. O design compacto se encaixa perfeitamente na sua estante,...
+
+Era 100 O alto-falante de estante estéreo de última geração Sonos Ir para o conteúdo principal Comprar fones de ouvido Aprender Suporte Rádio Profissional Minha conta Pesquisar Carrinho Menu Comprar alto-falantes Bluetooth Alto-falante inteligente Era 100 199 4
