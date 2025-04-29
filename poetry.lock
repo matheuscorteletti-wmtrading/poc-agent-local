@@ -928,6 +928,23 @@ langchain-core = ">=0.2.38,<0.4"
 ormsgpack = ">=1.8.0,<2.0.0"
 
 [[package]]
+name = "langgraph-checkpoint-aws"
+version = "0.1.0"
+description = "A LangChain checkpointer implementation that uses Bedrock Session Management Service to enable stateful and resumable LangGraph agents."
+optional = false
+python-versions = "<4.0,>=3.9"
+groups = ["main"]
+files = [
+    {file = "langgraph_checkpoint_aws-0.1.0-py3-none-any.whl", hash = "sha256:1d57c17234cd5a2de980af8b9232de11730fff487ec74840c73c9f07bedbbaf0"},
+    {file = "langgraph_checkpoint_aws-0.1.0.tar.gz", hash = "sha256:0dfc4fa07838ddb8249a5527f2f985827941e4d7cafb308ad45ecb9c5c312a64"},
+]
+
+[package.dependencies]
+boto3 = ">=1.37.3"
+langgraph = ">=0.2.55"
+langgraph-checkpoint = ">=2.0.0"
+
+[[package]]
 name = "langgraph-prebuilt"
 version = "0.1.8"
 description = "Library with high-level APIs for creating and executing LangGraph agents and tools."
@@ -2333,4 +2350,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0"
-content-hash = "eeb836425181168767aae53d858071cc3ede83adac9d79fd82db3bb3e7d59f68"
+content-hash = "722485bf5d929fdc0ac8299fb51247fa06f83b612bebd63ebd730a2c18bebb3e"

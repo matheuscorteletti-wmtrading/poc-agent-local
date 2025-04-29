@@ -6,6 +6,7 @@ from langchain.schema import Document
 from langchain.embeddings.base import Embeddings
 from langchain_community.vectorstores import FAISS
 
+
 class BedrockEmbeddings(Embeddings):
     def __init__(self, model_id="amazon.titan-embed-text-v1", region_name="us-east-1"):
         self.client = boto3.client("bedrock-runtime", region_name=region_name)
