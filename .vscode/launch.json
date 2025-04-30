@@ -9,14 +9,21 @@
             "name": "main",
             "type": "debugpy",
             "request": "launch",
-            "program": "faiss_poc/main.py",
+            "program": "classificador_poc/main.py",
             "console": "integratedTerminal"
         },
         {
             "name": "formatar",
             "type": "debugpy",
             "request": "launch",
-            "program": "faiss_poc/formatar.py",
+            "program": "classificador_poc/formatar.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "lg_vector",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "classificador_poc/_lg_with_memory.py",
             "console": "integratedTerminal"
         }
 
