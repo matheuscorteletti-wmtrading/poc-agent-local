@@ -7,23 +7,28 @@ from langchain_community.vectorstores import FAISS
 import bs4
 from langchain import hub
 from langchain_community.document_loaders import WebBaseLoader
+from langchain.chat_models import init_chat_model
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langgraph.graph import START, StateGraph
 from typing_extensions import List, TypedDict
 
-# VOYAGE Config
 
-if not os.environ.get("VOYAGE_API_KEY"):
-  os.environ["VOYAGE_API_KEY"] = getpass.getpass("Enter API key for Voyage AI: ")
+# Ensure your AWS credentials are configured
 
-embeddings = VoyageAIEmbeddings(model="voyage-code-3")
+llm = init_chat_model("anthropic.claude-3-opus-20240229-v1:0", model_provider="bedrock_converse")
 
-# Vector DB
+# --------------- VOYAGE CONFIG ---------------
+
+from your_bedrock_embeddings import BedrockEmbeddings
+
+embeddings = BedrockEmbeddings(model_id="amazon.titan-embed-text-v2:0")
+
+# --------------- VECTOR DB --------------- 
 
 vector_store = FAISS(embedding_function=embeddings)
 
-# CHATBO
+# --------------- CHATBOT --------------- 
 
 
 # Load and chunk contents of the blog
